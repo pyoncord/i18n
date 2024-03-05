@@ -27,6 +27,6 @@ files: [
     # Where translations will be placed
     # e.g. "/resources/%two_letters_code%/%original_file_name%"
     #
-    "translation": "/resources/%two_letters_code%/%original_file_name%",
+    "translation": "/resources/%locale%/%original_file_name%",
   }
 ]
