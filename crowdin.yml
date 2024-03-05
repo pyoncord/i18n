@@ -17,16 +17,9 @@
 #
 files: [
   {
-    #
-    # Source files filter
-    # e.g. "/resources/en/*.json"
-    #
     "source": "/base/*.json",
-
-    #
-    # Where translations will be placed
-    # e.g. "/resources/%two_letters_code%/%original_file_name%"
-    #
     "translation": "/resources/%osx_locale%/%original_file_name%",
+    "skip_untranslated_strings": true,
+    "skip_untranslated_files": true
   }
 ]
